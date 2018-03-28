@@ -1,0 +1,3 @@
+dnf remove gnome-documents gnome-weather gnome-calendar gnome-contacts simple-scan gnome-videos gnome-boxes amarok devassistant devassistant-gui dragon dragon-player gwenview totem xchat cheese empathy evolution rhythmbox shotwell
+dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+dnf install transmission aria2 htop iotop nano gnome-disk-utility gnome-power-manager clementine unrar wget ffmpeg mpv vlc youtube-dl
